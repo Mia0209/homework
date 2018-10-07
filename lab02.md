@@ -1,3 +1,8 @@
+---
+layout: default
+title: 如何使html5小游戏更具可玩性 
+---
+
 --- 
 # 如何使html5小游戏更具可玩性 
 
