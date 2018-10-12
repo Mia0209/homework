@@ -5,7 +5,7 @@
 1. [01-使用维基百科（Wikipedia）解释名词](hw01)
 2. [02-Number System](hw02)
 3. [03-Data Representation-01](hw03)
-4. [04-Data Representation-01](hw04)
+4. [04-Data Representation-02](hw04)
 
 
 ## 实验与实践
