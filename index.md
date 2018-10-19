@@ -3,9 +3,10 @@
 ## 课后作业
 
 1. [01-使用维基百科（Wikipedia）解释名词](hw01)
-2. [02-Number System](hw02)
-3. [03-Data Representation-01](hw03)
-4. [04-Data Representation-02](hw04)
+2. [02-数字系统](hw02)
+3. [03-数据表示-01](hw03)
+4. [04-数据表示-02](hw04)
+5. [05-简单的逻辑门与电路](hw05)
 
 
 ## 实验与实践
