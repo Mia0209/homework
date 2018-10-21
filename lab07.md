@@ -30,32 +30,32 @@ Boomer：点击后可清除屏幕上所有敌人。
 ---
 ***游戏开发小结***  
 
-Object:子弹  
+1. Object:子弹  
 Attribute:图片,位置  
 Collaborator：精灵   
 Events & Actions：碰撞 & 销毁自己  
 
-Object:飞机  
+2. Object:飞机  
 Attribute:图片,位置  
 Collaborator：精灵     
 Events & Actions：发射子弹 & 移动 & 触发散弹开关  
 
-Object:敌人  
+3. Object:敌人  
 Attribute:图片,位置  
 Collaborator：精灵    
 Events & Actions：碰撞到子弹 & 爆炸 & 销毁自己 & 每1.0秒产生一个新敌人  
 
-Object:散弹开关  
+4. Object:散弹开关  
 Attribute:图片,位置  
 Collaborator：精灵    
 Events & Actions：点击 & 使飞机变为散弹发射  
 
-Object:炸弹  
+5. Object:炸弹  
 Attribute:图片,位置  
 Collaborator：精灵    
 Events & Actions：点击 & 清除屏幕中所有敌人  
 
-Object:Score  
+6. Object:Score  
 Attribute:文本框,位置  
 Collaborator：文本    
 Events & Actions：显示分数（每死去一个敌人，分数+1）  
