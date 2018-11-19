@@ -2,7 +2,7 @@
 ## 高数作业
 
 求   
-$\lim_{(1-cosx)/x^2\rightarrow+\0}x$
+$$\lim_{x\to\0}\{(1-\cosx)/x^2}$$
 
 
 ![](lab08-1.png)
