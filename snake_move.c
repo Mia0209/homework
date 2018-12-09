@@ -32,7 +32,7 @@ char map[12][13]={"************",
 //initialize the map
 
 int snakeX[5]={1,2,3,4,5};		
-int snakeY[5]={1,1,1,1,1};		//the coordinate of the snake
+int snakeY[5]={1,1,1,1,1};		
 
 
 int main()
@@ -43,7 +43,7 @@ int main()
 	
 	while(!over())
 	{
-		scanf("%c", &ch);
+		scanf("%c", &ch);		//键盘输入 
 		getchar();
 		
 		switch(ch)
@@ -90,8 +90,8 @@ void snake_move(int y,int x)
 
 	for(i=0;i<3;i++) 
 	{
-		snakeX[i]=snakeX[i+1];		
-		snakeY[i]=snakeY[i+1];		
+		snakeX[i]=snakeX[i+1];		//在x方向打印出蛇的身体 
+		snakeY[i]=snakeY[i+1];		//在y方向打印出蛇的身体 
 		map[snakeY[i]][snakeX[i]]=SNAKE_BODY;		
 	}
 	
@@ -111,7 +111,7 @@ void put_food(void)
 void output_map(void)
 {
 	int i;
-	system("cls");
+	system("cls");		//重新打印地图 
 	for(i=0;i<12;i++)
 	{
 		printf("%s\n", map[i]);
@@ -123,7 +123,7 @@ int over(void)
 {
 	int i;
 	
-	for(i=0;i<4;i++) 
+	for(i=0;i<4;i++)  //蛇撞到自己的身体 
 	{
 		if(snakeY[4]==snakeY[i]&&snakeX[4]==snakeX[i]) 
 		{	
@@ -131,7 +131,7 @@ int over(void)
 		}
 	}	
 	
-	if(snakeY[4]==11||snakeY[4]==0) 
+	if(snakeY[4]==11||snakeY[4]==0)  //蛇撞到墙上 
 	{
 		return 1;		
 	}
